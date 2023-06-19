@@ -1,11 +1,9 @@
-/* eslint-disable react/no-unescaped-entities */
-
 import Page from "@/components/Page";
 
-export default function AccountPage() {
+export default function AccountPage(): React.ReactNode {
   return (
     <main>
-      <Page>I'm account page</Page>
+      <Page>I am account page</Page>
     </main>
   );
 }

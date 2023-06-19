@@ -1,11 +1,9 @@
-/* eslint-disable react/no-unescaped-entities */
-
 import Page from "@/components/Page";
 
-export default function SellPage() {
+export default function SellPage(): React.ReactNode {
   return (
     <main>
-      <Page>I'm sell page</Page>
+      <Page>I am sell page</Page>
     </main>
   );
 }

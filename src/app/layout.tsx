@@ -1,6 +1,10 @@
+"use client";
+
+import ProgressBar from "next-nprogress-bar";
 import StyledComponentsRegistry from "../../lib/registry";
 import Header from "@/components/Header";
-import {GlobalStyles} from "@/styles/GlobalStyles";
+import { GlobalStyles } from "@/styles/GlobalStyles";
+import "nprogress/nprogress.css";
 
 export const metadata = {
   title: "RPG Supply Co.",
@@ -19,6 +23,13 @@ export default function RootLayout({
           <GlobalStyles />
           <Header />
           {children}
+          <ProgressBar
+            height="4px"
+            color="#ff0000"
+            options={{ showSpinner: false }}
+            shallowRouting
+            appDirectory
+          />
         </StyledComponentsRegistry>
       </body>
     </html>

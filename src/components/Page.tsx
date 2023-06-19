@@ -1,6 +1,10 @@
 import { InnerStyles } from "@/styles/GlobalStyles";
 
-export default function Page({ children }: { children: React.ReactNode }) {
+export default function Page({
+  children,
+}: {
+  children: React.ReactNode;
+}): React.ReactNode {
   return (
     <div>
       <InnerStyles>

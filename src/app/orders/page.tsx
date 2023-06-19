@@ -1,11 +1,9 @@
-/* eslint-disable react/no-unescaped-entities */
-
 import Page from "@/components/Page";
 
-export default function OrdersPage() {
+export default function OrdersPage(): React.ReactNode {
   return (
     <main>
-      <Page>I'm orders page</Page>
+      <Page>I am orders page</Page>
     </main>
   );
 }
